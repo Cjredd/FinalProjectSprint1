@@ -1,168 +1,335 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
 
-<head>
-  <meta charset="utf-8">
-  <title> Mike Colbert </title>
-  <link rel="stylesheet" type="text/css" href="./css/stylesheet.css">
-</head>
+    <title>Mike Colbert</title>
 
-<body id="home">
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
-  <div class="wrap">
+    <!-- Custom fonts for this template -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="vendor/font-awesome/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
 
-    <header>
+    <!-- Custom styles for this template -->
+    <link href="css/resume.css" rel="stylesheet" />
+  </head>
 
-      <h1> All Things Mike </h1>
+  <body id="page-top">
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"
+      id="sideNav"
+    >
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <span class="d-block d-lg-none">&nbsp;</span>
+        <span class="d-none d-lg-block">
+          <img
+            class="img-fluid img-profile rounded-circle mx-auto mb-2"
+            src="img/profile.jpg"
+            alt="Mike Colbert, Associate Professor of Practice, Tippie College of Business, University of Iowa"
+          />
+        </span>
+      </a>
 
-      <div id="menubar">
-        <nav>
-          <ul id="navlist">
-            <li> <a id="homenav" href="./index.html"> Home </a> </li>
-            <li> <a id="schedulenav" href="./schedule.html"> Schedule </a> </li>
-            <li> <a href="http://www.twitter.com/colbert_tweets" target="_new"> Twitter </a> </li>
-            <li> <a href="http://www.linkedin.com/in/mikecolbert/" target="_new"> LinkedIn </a> </li>
-            <li> <a href="http://businessanalytics.me" target="_new"> Web Site </a> </li>
-            <li> <a href="https://github.com/mikecolbert" target="_new"> Github </a></li>
-          </ul>
-        </nav>
-      </div><!-- close the #menubar div -->
-
-    </header>
-    <main>
-
-      <section>
-        <figure>
-          <a href="./images/austin_1.JPG" target="_new">
-            <img class="responsive-main" src="./images/austin.jpg" alt="Family trip to Austin, TX">
-          </a>
-        </figure>
-        <figcaption> Visiting Austin, TX with my sister &amp; her husband (far left)</figcaption>
-      </section>
-
-      <section>
-        <h3>About Mike </h3>
-
-        <p>
-          I grew up in Bowling Green, a small farm town in northeast Missouri. I'm a 50-year-old father with two kids
-          (ages 19 & 22) and one wife (so far). Amy and I have been together since high school, so I'm liking my odds
-          :). I've lived in Missouri, Illinois, Indiana, and Iowa. I've been a grocery store bagger, driven dump trucks
-          and backhoes for a city street department, organized youth sports and other programs at a YMCA and summer
-          camps, interned at a municipal recreation department, and graduated with a BS in Parks and Recreation
-          Management with some computer courses. After graduation, I spent time as an EMT, a short time working as a
-          community support person for people with mental illness, and 2 weeks as a furniture salesman.
-        </p>
-
-        <p>
-          I graduated in 1994 with a BS in Recreation Management. I began my IT career in 1998 at the St. Louis Public
-          Library. I was sucked into the dot com bubble. I was hired to install computers after Bill Gates donated $1.2
-          million to the library for modernizing their technology. After a few weeks, my job duties expanded to include
-          helping configure LAN and WAN networks, and I was introduced to computer and network security. I moved with
-          Amy to Iowa City in August 1999 when she started the Ph.D. program in the Management and Entrepreneurship
-          department at Tippie.
-        </p>
-
-        <p>
-          After moving to Iowa City, I spent time working as a contractor doing phone tech support for McCleod USA
-          salespeople. Within a few months, I landed at Kinze Manufacturing, where I worked for several years. I worked
-          as a network and system administrator and was involved in several significant projects and system
-          implementations. After Amy's graduation in 2004, she started teaching at the University of Notre Dame. The
-          first year in Indiana, I was a stay at home dad, and then I started teaching as an adjunct in Fall 2005 at the
-          University of Notre Dame. In 2007 we landed back at the University of Iowa. Beginning in fall 2007, I started
-          teaching as an adjunct lecturer in the Business Analytics department (formerly Management Sciences) here at
-          Tippie. In Fall 2010, I moved to a full-time lecturer, and in spring 2019, I was promoted to Associate
-          Professor of Practice. I graduated with my Master's in Software Development in May 2021 from Maryville
-          University.
-        </p>
-      </section>
-
-      <hr />
-
-      <section>
-        <h3> Favorite Quotes </h3>
-        <ul>
-          <li> <q cite="Edwin Markham">When you are the anvil, bear. When you are the hammer, strike.</q> ~Edwin Markham
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#cloud"
+              >Cloud Computing</a
+            >
           </li>
-          <li> <q cite="Sir Richard Branson">Screw it, let's do it.</q> ~Sir Richard Branson </li>
-          <li> <q cite="www.radven.net">Technology rocks - when it isn't busy sucking.</q> ~www.radven.net </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#cybersec"
+              >Cybersecurity</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#data-wrangling"
+              >Data Wrangling</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#dig-prod-mgmt"
+              >Digital Product Management</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#bpa"
+              >Business Process Automation</a
+            >
+          </li>
         </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid p-0">
+      <section class="resume-section p-3 p-lg-5 d-flex d-column">
+        <div class="my-auto">
+          <h1 class="mb-0">
+            Mike
+            <span class="text-primary">Colbert</span>
+          </h1>
+          <div class="subheading mb-5">
+            <span class="text-highlight">Associate Professor of Practice</span>
+            and
+            <span class="text-highlight"
+              >Director of Undergraduate Studies
+            </span>
+            <br />
+            Department of <span class="text-highlight">Business Analytics</span
+            ><br />
+            Tippie College of Business <br />
+            S292 John Pappajohn Bus Bldg · The University of Iowa · Iowa City,
+            IA 52242-1994 <br />
+            <a href="mailto:michael-colbert@uiowa.edu"
+              >michael-colbert@uiowa.edu</a
+            >
+          </div>
+          <p class="mb-5">
+            I am passionate about helping students learn to break large,
+            difficult problems into small, manageble tasks and use technology to
+            solve them. It is my goal for students to be prepared for real world
+            execution on the job today and to also be equipped to learn as new
+            technologies emerge.
+          </p>
+
+          <ul class="list-inline list-social-icons mb-0">
+            <!-- TODO:MWC Add WordPress? -->
+            <li class="list-inline-item">
+              <a href="https://tippie.uiowa.edu/people/michael-w-colbert">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-id-badge fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">Tippie directory</span>
+              </a>
+            </li>
+
+            <li class="list-inline-item">
+              <a href="https://www.linkedin.com/in/mikecolbert">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">LinkedIn profile</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.github.com/mikecolbert">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">Github profile</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.twitter.com/colbert_tweets">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">Twitter profile</span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.youtube.com/c/mikecolbertonline">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="sr-only">Youtube videos</span>
+              </a>
+            </li>
+          </ul>
+        </div>
       </section>
 
-      <hr />
+      <hr class="m-0" />
+      <!-- Teaching Experience-->
 
-      <section>
-        <h3> Mike's Close Encounters With Fame </h3>
-        <ol>
-          <li> At SLPL, I worked with Jeff Sporleder, whose brother Greg Sporleder was in The Rock and had a guest
-            appearance on Friends</li>
-          <li> I worked several years with Ashton Kutcher's aunt. She was the Application Development Team Lead</li>
-          <li> A couple years ago, Lyle Lovett gave a manly nod to my friend Vince at the Minneapolis airport. Lyle
-            Lovett was married to Julia Roberts who was in Flatliners with Kevin Bacon ... making me four degrees from
-            Kevin Bacon <br> ... making you five degrees! You're welcome!</li>
-        </ol>
+      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="teaching">
+        <div class="my-auto">
+          <h2 class="mb-5">Teaching</h2>
+          <hr />
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div class="flex-grow-1">
+              <h3 class="mb-2 text-secondary" id="cloud">
+                BAIS:3400 - Cloud Computing
+              </h3>
+
+              <p>
+                In this class students learn fundamental networking concepts and
+                how the Internet works. We tackle topics such as IP addressing,
+                firewalls, ports, DNS, etc. After learning basic concepts
+                students dive into Microsoft Azure. In Azure, students get hands
+                on practice with virtual machines, storage, web & static
+                applications, and databases. The final in this class is the
+                <a
+                  href="https://docs.microsoft.com/en-us/learn/certifications/exams/az-900"
+                  >"AZ-900: Microsoft Azure Fundamentals"</a
+                >
+                certification exam. Thanks to donations from alumni, students
+                can take this certification exam on campus, for free.
+              </p>
+              <p>
+                In fall 2021, 14 students (25% of class) earned their
+                certification at the end of class.
+              </p>
+              <p>&nbsp;</p>
+              <p class="top"><a href="#page-top">back to top</a></p>
+            </div>
+          </div>
+          <p class="mb-5">&nbsp;</p>
+          <hr />
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div class="flex-grow-1">
+              <h3 class="mb-2 text-secondary" id="cybersec">
+                BAIS:6280 - Cybersecurity (hybrid-online)
+              </h3>
+              <p>
+                While participating in this class, will get a broad exposure to
+                information security topics including introductory concepts,
+                physical security, access controls, attacks, and defenses. We
+                also discuss management issues surrounding information security
+                as well as current topics and ethical scenarios. Throughout the
+                class we frequently change perspectives from the IT
+                administrator to the CEO, to the casual home user, to the
+                hacker. The class seeks to make students aware of a broad range
+                of topics and develop a security mindset regardless of their
+                career choices.
+              </p>
+              <p>&nbsp;</p>
+              <p class="top"><a href="#page-top">back to top</a></p>
+            </div>
+          </div>
+          <p class="mb-5">&nbsp;</p>
+          <hr />
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div class="flex-grow-1">
+              <h3 class="mb-2 text-secondary" id="data-wrangling">
+                BAIS:3250 - Data Wrangling
+              </h3>
+              <p class="mb-5">
+                "Data wrangling" encompasses collecting, cleaning, transforming,
+                integrating, and describing data. It is estimated that data
+                scientists spend up to 80% of their time on data wrangling
+                tasks. In addition to being the most time-consuming step of most
+                analytics workflows, wrangling is critical, as it impacts the
+                outcome of all subsequent experiments/analyses. This course
+                introduces essential R programming skills for data wrangling.
+              </p>
+              <p>&nbsp;</p>
+              <p class="top"><a href="#page-top">back to top</a></p>
+            </div>
+          </div>
+          <p class="mb-5">&nbsp;</p>
+          <hr />
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div class="flex-grow-1">
+              <h3 class="mb-2 text-secondary" id="dig-prod-mgmt">
+                BAIS:3300 - Digital Product Management
+              </h3>
+
+              <p class="mb-5">
+                This course is designed to teach you much of the technology and
+                many of the theories for managing a digital “product”. This
+                could be a website or application, but it can also be a machine
+                learning model or digital dashboard.
+              </p>
+              <p>&nbsp;</p>
+              <p class="top"><a href="#page-top">back to top</a></p>
+            </div>
+          </div>
+          <p class="mb-5">&nbsp;</p>
+          <hr />
+          <div
+            class="d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div class="flex-grow-1">
+              <h3 class="mb-2 text-secondary" id="bpa">
+                BAIS:3025 - Business Process Automation
+              </h3>
+
+              <p class="mb-5">
+                You will then learn to map, measure, and improve backstage
+                business processes that align with customer touchpoints along
+                their journey. We will consider automation to improve both the
+                customer and the employee experience associated with these
+                business processes. We will learn both application automation
+                using Excel VBA as well as robotic process automation.
+              </p>
+              <p>&nbsp;</p>
+              <p class="top"><a href="#page-top">back to top</a></p>
+            </div>
+          </div>
+        </div>
       </section>
-    </main>
+    </div>
 
-    <aside class="right">
-      <section>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-J2VNQGNKVV"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-        <article class="sidebar">
-          <h3> Favorite Websites </h3>
-          <ul>
-            <li> <a href="http://bemorewithless.com" target="_new"> Be More With Less </a> </li>
-            <li> <a href="http://www.naturescapes.net" target="_new"> Naturescapes </a> </li>
-            <li> <a href="http://youtube.com" target="_new"> Youtube </a> </li>
-            <li> <a href="http://www.becomingminimalist.com/" target="_new"> Becoming Minimalist </a> </li>
-            <li> <a href="http://www.lifehacker.com" target="_new"> Lifehacker </a> </li>
-            <li> <a href="http://www.slashdot.org" target="_new"> /. </a> </li>
-            <li> <a href="https://ana-white.com/" target="_new"> Ana White Woodworking Projects </a> </li>
-          </ul>
-        </article>
+      gtag("config", "G-J2VNQGNKVV");
+    </script>
 
-        <article class="sidebar">
-          <h3> Favorite Things </h3>
-          <ul>
-            <li> Traveling with my family </li>
-            <li> My Sony A7III camera </li>
-            <li> Woodworking </li>
-            <li> Listening to my kids play music</li>
-            <li> Photographing sports, wildlife, and lighthouses </li>
-            <li> Cryptocurrency </li>
-          </ul>
-        </article>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-        <article class="sidebar">
-          <h3> Favorite Movies </h3>
-          <ul>
-            <li> Captain Ron </li>
-            <li> Great Outdoors </li>
-            <li> Mystery Alaska </li>
-            <li> Free Solo </li>
-            <li> American Pie </li>
-            <li> Pitch Perfect </li>
-          </ul>
-        </article>
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-        <article class="sidebar">
-          <h3> Favorite Music </h3>
-          <ul>
-            <li> Beach Boys </li>
-            <li> Green Day </li>
-            <li> Blink 182 </li>
-            <li> Goo Goo Dolls </li>
-            <li> Post Malone </li>
-            <li> Johnny Cash </li>
-            <li> Jimmy Buffett </li>
-            <li> Kid Rock </li>
-            <li> Kenny Chesney </li>
-          </ul>
-        </article>
-
-      </section>
-
-    </aside>
-
-  </div> <!-- close the wrap div -->
-</body>
-
+    <!-- Custom scripts for this template -->
+    <script src="js/resume.min.js"></script>
+  </body>
 </html>
